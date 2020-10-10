@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9748B1A825313B9A00C2A57C /* Fruits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748B1A725313B9A00C2A57C /* Fruits.swift */; };
 		97B99FF9252F6C5200D5713B /* FuritsListSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B99FF8252F6C5200D5713B /* FuritsListSwiftUIApp.swift */; };
 		97B99FFB252F6C5200D5713B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B99FFA252F6C5200D5713B /* ContentView.swift */; };
 		97B99FFD252F6C5400D5713B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B99FFC252F6C5400D5713B /* Assets.xcassets */; };
 		97B9A000252F6C5400D5713B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B99FFF252F6C5400D5713B /* Preview Assets.xcassets */; };
+		97B9A009252F7C5D00D5713B /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B9A008252F7C5D00D5713B /* DescriptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9748B1A725313B9A00C2A57C /* Fruits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruits.swift; sourceTree = "<group>"; };
 		97B99FF5252F6C5200D5713B /* FuritsListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuritsListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B99FF8252F6C5200D5713B /* FuritsListSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuritsListSwiftUIApp.swift; sourceTree = "<group>"; };
 		97B99FFA252F6C5200D5713B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		97B99FFC252F6C5400D5713B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97B99FFF252F6C5400D5713B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		97B9A001252F6C5400D5713B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97B9A008252F7C5D00D5713B /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				97B99FFC252F6C5400D5713B /* Assets.xcassets */,
 				97B9A001252F6C5400D5713B /* Info.plist */,
 				97B99FFE252F6C5400D5713B /* Preview Content */,
+				97B9A008252F7C5D00D5713B /* DescriptionView.swift */,
+				9748B1A725313B9A00C2A57C /* Fruits.swift */,
 			);
 			path = FuritsListSwiftUI;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9748B1A825313B9A00C2A57C /* Fruits.swift in Sources */,
+				97B9A009252F7C5D00D5713B /* DescriptionView.swift in Sources */,
 				97B99FFB252F6C5200D5713B /* ContentView.swift in Sources */,
 				97B99FF9252F6C5200D5713B /* FuritsListSwiftUIApp.swift in Sources */,
 			);
